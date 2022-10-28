@@ -1,0 +1,26 @@
+<div class="container">
+    <h2>Course List</h2>
+    <p>Use the buttons provided to perform crud operations</p>
+    <table class="table">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col">Course ID</th>
+        <th scope="col">Title</th>
+        <th scope="col">Description</th>
+        
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th >{{courses.id}}</th>
+        <td>{{courses.title}}</td>
+        <td>{{courses.description}}</td>
+        
+  
+      </tr>
+  
+      </tbody>
+    </table>
+    <button type="button" class="btn btn-success" (click)="gotolist()">Back</button>
+  </div>
+  
